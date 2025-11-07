@@ -33,11 +33,27 @@
    background-color: #ee82ee;
 }
 
+.black {
+    background-color: #23272a;
+}
+
+.dark-pink {
+    background-color: #f08080;
+}
+
+.light-blue {
+    background-color: #20b2aa;
+}
+
 
 
 /* utility classes border and block division */
 .dashed {
      border: 1px dashed black; 
+}
+
+.white-dashed {
+    border: 1px dashed white; 
 }
 
 .col-3 {
@@ -69,6 +85,11 @@
 
 .height-2 {
     height: 400px;
+}
+
+.footer-height {
+    height: 300px;
+
 }
 
 .general-padding {
@@ -144,6 +165,23 @@
     height: 350px;
     width: 50%;
     margin: 0px auto;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-section-content {
+    display: flex; 
+    width: 50%;
+    height: 200px;
+    background-color: blue;
+}
+
+.footer-content-2 {
+    display: flex;
 }
 
 
