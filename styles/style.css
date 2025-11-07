@@ -9,9 +9,19 @@
      background-color: #daa520; 
 }
 
-.blue {
+.dark-blue {
     background-color: darkblue;
 }
+
+.light-blue {
+    background-color: #1e90ff;
+}
+
+.pink {
+    background-color: pink;
+}
+
+
 
 /* utility classes border and block division */
 .dashed {
@@ -24,6 +34,14 @@
 
 .col-6 {
     flex-basis: calc((100%/12) * 6);
+}
+
+.col-8 {
+    flex-basis: calc((100%/12) * 8);
+}
+
+.col-4 {
+    flex-basis: calc((100%/12) * 4);
 }
 
 /* utily classes spacing */
@@ -79,11 +97,6 @@
     padding-left: 100px;
 }
 
-.hello-bar {
-
-  
-}
-
 .hello-bar-content {
     height: 150px;
     width: 50%;
@@ -91,4 +104,17 @@
     background-color: #ee82ee;
     
 }
+
+.first-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-section-content {
+    display: flex;
+    height: 150px;
+    width: 50%;
+}
+
 
