@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utility classes colors*/
+.orange {
+     background-color: #daa520; 
+}
+
+.blue {
+    background-color: darkblue;
+}
+
+/* utility classes border and block division */
+.dashed {
+     border: 1px dashed black; 
+}
+
+.col-3 {
+    flex-basis: calc((100% / 12) * 3);
+}
+
+.col-6 {
+    flex-basis: calc((100%/12) * 6);
+}
+
+/* utily classes spacing */
+.header-padding {
+   
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+.height {
+    height: 200px;
+}
+
+.general-padding {
+  padding: 25px 0px;
+}
+
+
+
+/* Rules */
+
+.header-container {
+    background-color: #add8e6;
+    display: flex;
+    height: 50px;
+    justify-content: center;  
+    align-items: center;  
+
+}
+
+.header-bar-container{
+    display: flex;
+    height: 30px;
+    justify-content: flex-end;
+    flex-basis: 70%;
+    
+
+}
+
+.header-logo {
+    
+    padding-left: 10px;
+}
+
+.header-links {
+
+    padding-left: 70px;
+    padding-right: 10px;
+}
+
+.header-login {
+
+    padding-left: 100px;
+}
+
+.hello-bar {
+
+  
+}
+
+.hello-bar-content {
+    height: 150px;
+    width: 50%;
+    margin: 0px auto;
+    background-color: #ee82ee;
+    
+}
+
