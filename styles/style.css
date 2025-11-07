@@ -25,6 +25,14 @@
     background-color: #d3d3d3;
 }
 
+.green {
+    background-color: #228b22;
+}
+
+.dark-pink {
+   background-color: #ee82ee;
+}
+
 
 
 /* utility classes border and block division */
@@ -57,6 +65,10 @@
 
 .height {
     height: 200px;
+}
+
+.height-2 {
+    height: 400px;
 }
 
 .general-padding {
@@ -105,7 +117,7 @@
     height: 150px;
     width: 50%;
     margin: 0px auto;
-    background-color: #ee82ee;
+    
     
 }
 
@@ -126,6 +138,12 @@
     height: 150px;
     width: 50%;
     flex-direction: row-reverse;
+}
+
+.big-section-content {
+    height: 350px;
+    width: 50%;
+    margin: 0px auto;
 }
 
 
